@@ -1,0 +1,1 @@
+2021-03-22 03:47:58.610 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.MEng.modservice.mapper]' package. Please check your configuration.
