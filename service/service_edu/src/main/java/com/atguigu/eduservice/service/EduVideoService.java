@@ -12,5 +12,6 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @since 2021-03-24
  */
 public interface EduVideoService extends IService<EduVideo> {
+    void removeVideoByCourseId(String courseId);
 
 }

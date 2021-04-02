@@ -2,7 +2,6 @@ package com.atguigu.eduservice.entity.vo;
 
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
-import org.springframework.web.bind.annotation.RequestParam;
 
 @Data
 public class TeacherQuery {
