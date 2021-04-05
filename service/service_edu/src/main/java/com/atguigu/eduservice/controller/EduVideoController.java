@@ -1,9 +1,9 @@
 package com.atguigu.eduservice.controller;
-
-
-import org.springframework.web.bind.annotation.RequestMapping;
-
-import org.springframework.web.bind.annotation.RestController;
+import com.atguigu.commonutils.Result;
+import com.atguigu.eduservice.entity.EduVideo;
+import com.atguigu.eduservice.service.EduVideoService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * <p>
@@ -14,8 +14,27 @@ import org.springframework.web.bind.annotation.RestController;
  * @since 2021-03-24
  */
 @RestController
-@RequestMapping("/eduservice/edu-video")
-public class EduVideoController {
+@RequestMapping("/eduservice/video")
+@CrossOrigin
 
+public class EduVideoController {
+    @Autowired
+    private EduVideoService videoService;
+
+    //添加小节
+    @PostMapping("addVideo")
+    public Result addVideo(@RequestBody EduVideo eduVideo) {
+        videoService.save(eduVideo);
+        return Result.ok();
+    }
+
+    //删除小节
+    // TODO 后面这个方法需要完善：删除小节时候，同时把里面视频删除
+    @DeleteMapping("{id}")
+    public Result deleteVideo(@PathVariable String id) {
+        videoService.removeById(id);
+        return Result.ok();
+
+    }
 }
 
