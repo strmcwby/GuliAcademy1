@@ -43,10 +43,10 @@ public class EduCourseServiceImpl extends ServiceImpl<EduCourseMapper, EduCourse
         EduCourse eduCourse = new EduCourse();
         BeanUtils.copyProperties(courseInfoVo,eduCourse);
         int insert = baseMapper.insert(eduCourse);
-//        if(insert == 0) {
-//            //添加失败
-//            throw new GuliException(20001,"添加课程信息失败");
-//        }
+        if(insert == 0) {
+            //添加失败
+            throw new GuliException(20001,"添加课程信息失败");
+        }
 
         //获取添加之后课程id
         String cid = eduCourse.getId();
@@ -62,6 +62,7 @@ public class EduCourseServiceImpl extends ServiceImpl<EduCourseMapper, EduCourse
         return cid;
     }
 
+    //根据课程id查询课程基本信息
     @Override
     public CourseInfoVo getCourseInfo(String courseId) {
         //1 查询课程表
@@ -76,6 +77,7 @@ public class EduCourseServiceImpl extends ServiceImpl<EduCourseMapper, EduCourse
         return courseInfoVo;
     }
 
+    //修改课程信息
     @Override
     public void updateCourseInfo(CourseInfoVo courseInfoVo) {
         //1 修改课程表
@@ -93,6 +95,7 @@ public class EduCourseServiceImpl extends ServiceImpl<EduCourseMapper, EduCourse
         courseDescriptionService.updateById(description);
     }
 
+    //根据课程id查询课程确认信息
     @Override
     public CoursePublishVo publishCourseInfo(String id) {
         //调用mapper
@@ -100,6 +103,7 @@ public class EduCourseServiceImpl extends ServiceImpl<EduCourseMapper, EduCourse
         return publishCourseInfo;
     }
 
+    //删除课程
     @Override
     public void removeCourse(String courseId) {
         //1 根据课程id删除小节
@@ -117,4 +121,5 @@ public class EduCourseServiceImpl extends ServiceImpl<EduCourseMapper, EduCourse
             throw new GuliException(20001,"删除失败");
         }
     }
+
 }

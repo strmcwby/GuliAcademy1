@@ -17,7 +17,6 @@ public class TestEasyExcel {
 
 
         //实现excel读操作
-        //String filename = "/Users/minhaoxu/Documents/write.xlsx";
        EasyExcel.read(filename, DemoData.class,new ExcelListener()).sheet().doRead();
     }
 

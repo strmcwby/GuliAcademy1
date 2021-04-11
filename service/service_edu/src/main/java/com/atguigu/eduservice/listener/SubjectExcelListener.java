@@ -50,7 +50,7 @@ public class SubjectExcelListener extends AnalysisEventListener<SubjectData> {
     }
 
     //判断一级分类不能重复添加
-    private EduSubject existOneSubject(EduSubjectService subjectService, String name) {
+    private EduSubject existOneSubject(EduSubjectService subjectService,String name) {
         QueryWrapper<EduSubject> wrapper = new QueryWrapper<>();
         wrapper.eq("title",name);
         wrapper.eq("parent_id","0");
@@ -59,7 +59,7 @@ public class SubjectExcelListener extends AnalysisEventListener<SubjectData> {
     }
 
     //判断二级分类不能重复添加
-    private EduSubject existTwoSubject(EduSubjectService subjectService, String name, String pid) {
+    private EduSubject existTwoSubject(EduSubjectService subjectService,String name,String pid) {
         QueryWrapper<EduSubject> wrapper = new QueryWrapper<>();
         wrapper.eq("title",name);
         wrapper.eq("parent_id",pid);

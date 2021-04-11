@@ -24,7 +24,7 @@ public class VodController {
         return Result.ok().data("videoId",videoId);
     }
     //TO DO 数据库中无id
-    @DeleteMapping("removeVideo/{id}")
+    @DeleteMapping("removeAliVideo/{id}")
     public Result removeAliVideo(@PathVariable String id){
         try{
             //Initialization object

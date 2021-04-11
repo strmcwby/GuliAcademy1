@@ -38,9 +38,9 @@ public class EduTeacherController {
         return Result.ok().data("items",list);
     }
 
-    @ApiOperation(value = "逻辑删除讲师")
+    @ApiOperation(value = "Logical Delete")
     @DeleteMapping("{id}")
-    public Result removeTeacher(@ApiParam(name = "id", value = "讲师ID", required = true)
+    public Result removeTeacher(@ApiParam(name = "id", value = "Teacher ID", required = true)
                                      @PathVariable String id){
         boolean flag = teacherService.removeById(id);
 
