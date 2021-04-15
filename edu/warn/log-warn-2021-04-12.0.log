@@ -1,0 +1,43 @@
+2021-04-12 00:41:36.924 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m21s904ms).
+2021-04-12 01:42:58.882 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h1m21s959ms).
+2021-04-12 03:43:58.200 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h29s171ms).
+2021-04-12 05:46:26.216 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h28s4ms).
+2021-04-12 06:52:40.565 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h5m14s342ms).
+2021-04-12 06:53:10.317 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s752ms), soft-evicting connections from pool.
+2021-04-12 18:21:47.783 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-04-12 18:21:47.789 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-04-12 21:13:42.408 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-04-12 21:13:42.415 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-04-12 22:59:58.974 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-04-12 22:59:58.978 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-04-12 23:00:44.454 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-04-12 23:00:44.458 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-04-12 23:01:13.271 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-04-12 23:01:13.274 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-04-12 23:03:38.534 [lettuce-nioEventLoop-4-2] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.131.128:6379]: Connection refused: /192.168.131.128:6379
+2021-04-12 23:03:44.034 [lettuce-nioEventLoop-4-7] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.131.128:6379]: Connection refused: /192.168.131.128:6379
+2021-04-12 23:03:49.226 [lettuce-nioEventLoop-4-3] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.131.128:6379]: Connection refused: /192.168.131.128:6379
+2021-04-12 23:03:54.430 [lettuce-nioEventLoop-4-5] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.131.128:6379]: Connection refused: /192.168.131.128:6379
+2021-04-12 23:03:59.626 [lettuce-nioEventLoop-4-6] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.131.128:6379]: Connection refused: /192.168.131.128:6379
+2021-04-12 23:04:08.832 [lettuce-nioEventLoop-4-7] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.131.128:6379]: Connection refused: /192.168.131.128:6379
+2021-04-12 23:04:26.249 [lettuce-nioEventLoop-4-8] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.131.128:6379]: Connection refused: /192.168.131.128:6379
+2021-04-12 23:04:57.365 [lettuce-nioEventLoop-4-1] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.131.128:6379]: Connection refused: /192.168.131.128:6379
+2021-04-12 23:05:28.441 [lettuce-nioEventLoop-4-2] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.131.128:6379]: Connection refused: /192.168.131.128:6379
+2021-04-12 23:05:59.537 [lettuce-nioEventLoop-4-3] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.131.128:6379]: Connection refused: /192.168.131.128:6379
+2021-04-12 23:06:30.637 [lettuce-nioEventLoop-4-4] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.131.128:6379]: Connection refused: /192.168.131.128:6379
+2021-04-12 23:07:01.730 [lettuce-nioEventLoop-4-5] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.131.128:6379]: Connection refused: /192.168.131.128:6379
+2021-04-12 23:07:32.827 [lettuce-nioEventLoop-4-6] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.131.128:6379]: Connection refused: /192.168.131.128:6379
+2021-04-12 23:08:03.941 [lettuce-nioEventLoop-4-7] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.131.128:6379]: Connection refused: /192.168.131.128:6379
+2021-04-12 23:08:35.039 [lettuce-nioEventLoop-4-8] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.131.128:6379]: Connection refused: /192.168.131.128:6379
+2021-04-12 23:09:06.143 [lettuce-nioEventLoop-4-1] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.131.128:6379]: Connection refused: /192.168.131.128:6379
+2021-04-12 23:09:37.240 [lettuce-nioEventLoop-4-2] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.131.128:6379]: Connection refused: /192.168.131.128:6379
+2021-04-12 23:10:08.336 [lettuce-nioEventLoop-4-3] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.131.128:6379]: Connection refused: /192.168.131.128:6379
+2021-04-12 23:10:39.431 [lettuce-nioEventLoop-4-4] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.131.128:6379]: Connection refused: /192.168.131.128:6379
+2021-04-12 23:11:10.534 [lettuce-nioEventLoop-4-5] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.131.128:6379]: Connection refused: /192.168.131.128:6379
+2021-04-12 23:11:41.630 [lettuce-nioEventLoop-4-6] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.131.128:6379]: Connection refused: /192.168.131.128:6379
+2021-04-12 23:12:12.729 [lettuce-nioEventLoop-4-7] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.131.128:6379]: Connection refused: /192.168.131.128:6379
+2021-04-12 23:12:43.830 [lettuce-nioEventLoop-4-8] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.131.128:6379]: Connection refused: /192.168.131.128:6379
+2021-04-12 23:13:14.937 [lettuce-nioEventLoop-4-1] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.131.128:6379]: Connection refused: /192.168.131.128:6379
+2021-04-12 23:13:46.041 [lettuce-nioEventLoop-4-2] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.131.128:6379]: Connection refused: /192.168.131.128:6379
+2021-04-12 23:20:33.060 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-04-12 23:20:33.063 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.

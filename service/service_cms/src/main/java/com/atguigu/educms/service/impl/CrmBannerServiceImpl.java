@@ -21,7 +21,8 @@ import java.util.List;
 @Service
 public class CrmBannerServiceImpl extends ServiceImpl<CrmBannerMapper, CrmBanner> implements CrmBannerService {
 
-    @Cacheable(value = "banner", key = "'selectIndexList'")
+    //查询所有banner
+    @Cacheable(value = "banner",key = "'selectIndexList'")
     @Override
     public List<CrmBanner> selectAllBanner() {
 
@@ -30,8 +31,7 @@ public class CrmBannerServiceImpl extends ServiceImpl<CrmBannerMapper, CrmBanner
         wrapper.orderByDesc("id");
         //last方法，拼接sql语句
         wrapper.last("limit 2");
-
-        List<CrmBanner> list = baseMapper.selectList(null); //wrapper?
+        List<CrmBanner> list = baseMapper.selectList(null);
         return list;
     }
 }

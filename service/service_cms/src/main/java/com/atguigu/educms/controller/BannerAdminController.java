@@ -24,7 +24,7 @@ public class BannerAdminController {
     @Autowired
     private CrmBannerService bannerService;
 
-    //分页查询
+    //1 分页查询banner
     @GetMapping("pageBanner/{page}/{limit}")
     public Result pageBanner(@PathVariable long page, @PathVariable long limit){
         Page<CrmBanner> pageBanner = new Page<>(page,limit);
@@ -33,10 +33,10 @@ public class BannerAdminController {
         return Result.ok().data("items",pageBanner.getRecords()).data("total",pageBanner.getTotal());
     }
 
-    //添加banner
+    //2 添加banner
     @PostMapping("addBanner")
-    public Result addBanner(@RequestBody CrmBanner banner){
-        bannerService.save(banner);
+    public Result addBanner(@RequestBody CrmBanner crmbanner){
+        bannerService.save(crmbanner);
         return Result.ok();
     }
 
