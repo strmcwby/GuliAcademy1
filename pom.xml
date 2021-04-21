@@ -8,6 +8,7 @@
         <module>service/service_cms</module>
         <module>service/service_msm</module>
         <module>service/service_ucenter</module>
+        <module>service/service_statistics</module>
         <!--        <module>service_oss</module>-->
     </modules>
     <parent>
